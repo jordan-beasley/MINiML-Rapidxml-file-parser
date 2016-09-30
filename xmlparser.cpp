@@ -361,7 +361,7 @@ string NameExcelFile() {
 
 	string fileName;
 
-	cout << "What name do you want to make the excel file? or press enter to default name to projectData(do NOT include the file extension): ";
+	cout << "What do you want to name the excel file? or press enter to default name to projectData(do NOT include the file extension): ";
 	getline(cin, fileName, '\n'); // using a new line buffer so the user can default the file name
 
 
