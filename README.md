@@ -1,7 +1,8 @@
 # This program parses MINIML xml files.
 
 Within the file the program searches for the following nodes and attributes:
-> * MINiML(root node)
+> 
+* MINiML(root node)
   * Sample
     * iid
     * Channel
@@ -9,16 +10,18 @@ Within the file the program searches for the following nodes and attributes:
     * Title
     * Supplementary-Data
       * type(IDAT)
-> 
+>
+
 The nodes and attributes are used to fill the following fields in a formatted excel file
-**Sample_name:** iid
-**Sample_plate:** empty
-**Sample_group:** Source
-**Pool_ID:** empty
-**Project:** empty
-**Sample_Well:** empty
-**Sentrix_ID:** Supplementary-Data(type: IDAT)
-**Sentrix_Position:** Supplementary-Data(type: IDAT)
+
+* **Sample_name:** iid
+* **Sample_plate:** empty
+* **Sample_group:** Source
+* **Pool_ID:** empty
+* **Project:** empty
+* **Sample_Well:** empty
+* **Sentrix_ID:** Supplementary-Data(type: IDAT)
+* **Sentrix_Position:** Supplementary-Data(type: IDAT)
 
 Upon opening the excel file a warning will be displayed because we created the file using this programm and not excel.
 The file is safe to open and use.
