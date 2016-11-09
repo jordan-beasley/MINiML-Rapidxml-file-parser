@@ -2,26 +2,26 @@
 
 Within the file the program searches for the following nodes and attributes:
 > 
-* MINiML(root node)
-  * Sample
-    * iid
-    * Channel
-      * Source
-    * Title
-    * Supplementary-Data
-      * type(IDAT)
+* __MINiML(root node)__
+  * __Sample__
+    * __iid__
+    * __Channel__
+      * _Source_
+    * __Title__
+    * __Supplementary-Data__
+      * _type(IDAT)_
 >
 
 The nodes and attributes are used to fill the following fields in a formatted excel file
 
-* **Sample_name:** iid
-* **Sample_plate:** empty
-* **Sample_group:** Source
-* **Pool_ID:** empty
-* **Project:** empty
-* **Sample_Well:** empty
-* **Sentrix_ID:** Supplementary-Data(type: IDAT)
-* **Sentrix_Position:** Supplementary-Data(type: IDAT)
+* _Sample_name:_ iid
+* _Sample_plate:_ empty
+* _Sample_group:_ Source
+* _Pool_ID:_ empty
+* _Project:_ empty
+* _Sample_Well:_ empty
+* _Sentrix_ID:_ Supplementary-Data(type: IDAT)
+* _Sentrix_Position:_ Supplementary-Data(type: IDAT)
 
 Upon opening the excel file a warning will be displayed because we created the file using this programm and not excel.
 The file is safe to open and use.
