@@ -25,8 +25,8 @@ int main() {
 			}
 
 			infile >> url;
-			//string command = "wget " + url + " &"; // make the command a standard string to be casted to a c style string
-			string command = "echo " + url;
+			string command = "wget " + url + " &"; // make the command a standard string to be casted to a c style string
+			//string command = "echo " + url;
 			system((const char*)command.c_str());
 
 			//cout << "the Url " << counter << " is: " << url << endl;
